@@ -1,6 +1,7 @@
 package piscine
 
 import (
+
 	"github.com/01-edu/z01"
 )
 
@@ -17,15 +18,18 @@ func PrintComb2() {
 							z01.PrintRune(c)
 							z01.PrintRune(d)
 							if a == '9' && b == '8' && c == '9' && d == '9' {
-								break
+								break 
 							}
 							z01.PrintRune(',')
 							z01.PrintRune(' ')
 						}
 					}
+
 				}
 			}
+			z01.PrintRune('\n')
 		}
+	
 	}
-	z01.PrintRune('\n')
+	
 }
