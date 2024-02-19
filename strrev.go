@@ -1,4 +1,4 @@
-package main
+package piscine
 
 func StrRev(s string) string {
 	x := []rune(s)
