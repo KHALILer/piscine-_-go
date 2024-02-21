@@ -12,7 +12,7 @@ func Sqrt(nb int) int {
 		if nb == n*n {
 			return n
 		} else {
-			return n
+			return 0
 		}
 	}
 }
