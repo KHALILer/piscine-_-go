@@ -1,4 +1,4 @@
-package package
+package piscine
 
 func IsNumeric(s string) bool {
 	rn := []rune(s)
