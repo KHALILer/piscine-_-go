@@ -1,4 +1,4 @@
-package main
+package piscine
 
 func ToLower(s string) string {
 	rn := []rune(s)
