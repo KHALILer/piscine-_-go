@@ -22,4 +22,3 @@ func PrintNbrInOrder(n int) {
 		z01.PrintRune(rune(nb[i]) + '0')
 	}
 }
-
