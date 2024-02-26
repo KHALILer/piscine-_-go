@@ -4,9 +4,6 @@ func MakeRange(min, max int) []int {
 	if min >= max {
 		return nil
 	}
-	if min < 0 || max < 0 {
-		return nil
-	}
 
 	array := make([]int, max-min)
 
