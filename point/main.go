@@ -12,9 +12,9 @@ func setPoint(ptr *point) {
 	ptr.y = 21
 }
 
-func main() {
-	var result string = "x = 42, y = 21"
+var result string = "x = 42, y = 21"
 
+func main() {
 	for _, char := range result {
 		z01.PrintRune(char)
 	}
