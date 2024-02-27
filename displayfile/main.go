@@ -25,7 +25,7 @@ func main() {
 
 		content, _ := ioutil.ReadFile(arguments[0])
 
-		fmt.Println(string(content))
+		fmt.Printf(string(content))
 
 	}
 }
