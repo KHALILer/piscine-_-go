@@ -15,8 +15,12 @@ func main() {
 
 	if length > 1 {
 		fmt.Print("Too many arguments")
+		fmt.Println()
+
 	} else if length == 0 {
 		fmt.Print("File name missing")
+		fmt.Println()
+
 	} else {
 
 		content, _ := ioutil.ReadFile(arguments[0])
@@ -24,5 +28,4 @@ func main() {
 		fmt.Println(string(content))
 
 	}
-	fmt.Println()
 }
