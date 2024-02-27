@@ -24,4 +24,5 @@ func main() {
 		fmt.Println(string(content))
 
 	}
+	fmt.Println()
 }
