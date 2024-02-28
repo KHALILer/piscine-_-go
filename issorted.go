@@ -1,4 +1,4 @@
-package main
+package piscine
 
 func IsSorted(f func(a, b int) int, a []int) bool {
 	for i := 1; i < len(a); i++ {
