@@ -1,9 +1,8 @@
 package piscine
 
 func Unmatch(a []int) int {
-	var count int
 	for _, i := range a {
-		count = 0
+		count := 0
 		for _, j := range a {
 			if i == j {
 				count++
