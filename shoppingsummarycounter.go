@@ -4,7 +4,7 @@ func ShoppingSummaryCounter(str string) map[string]int {
 	Map := make(map[string]int)
 	item := ""
 	for _, words := range str {
-		if words != ' ' {
+		if words == ' ' {
 			item += string(words)
 		} else {
 			if item != "" {
@@ -13,8 +13,6 @@ func ShoppingSummaryCounter(str string) map[string]int {
 			}
 		}
 	}
-	if item != "" {
-		Map[item]++
-	}
+	Map[item]++
 	return Map
 }
