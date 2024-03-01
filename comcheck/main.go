@@ -1,6 +1,9 @@
 package main
 
-import "os"
+import (
+	"fmt"
+	"os"
+)
 
 func main() {
 	word := []string{"01", "galaxy", "galaxy 01"}
@@ -14,7 +17,7 @@ func main() {
 		}
 	}
 	if count >= 1 {
-		print("Alert!!!")
+		fmt.Print("Alert!!!")
 	}
-	println()
+	fmt.Println()
 }
