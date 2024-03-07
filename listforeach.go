@@ -11,13 +11,11 @@ type List struct {
 }
 
 func ListForEach(l *List, f func(*NodeL)) {
-
 	node := l.Head
 	for node != nil {
 		f(node)
 		node = node.Next
 	}
-
 }
 
 func Add2_node(node *NodeL) {
